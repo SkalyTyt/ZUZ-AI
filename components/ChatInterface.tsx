@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { User, ChatMessage } from '../types';
-import { sendMessageToManager, resetChat } from '../services/geminiService';
+import { User, ChatMessage } from '../types.ts';
+import { sendMessageToManager, resetChat } from '../services/geminiService.ts';
 
 interface ChatInterfaceProps {
   user: User;

@@ -1,5 +1,5 @@
-import { Product } from '../types';
-import { INITIAL_INVENTORY } from '../constants';
+import { Product } from '../types.ts';
+import { INITIAL_INVENTORY } from '../constants.ts';
 
 const INV_KEY = 'zuz_inventory';
 

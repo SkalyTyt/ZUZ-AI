@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { User, Product } from '../types';
-import { getInventory, addProduct, updateProduct, deleteProduct } from '../services/storageService';
-import { resetChat } from '../services/geminiService';
+import { User, Product } from '../types.ts';
+import { getInventory, addProduct, updateProduct, deleteProduct } from '../services/storageService.ts';
+import { resetChat } from '../services/geminiService.ts';
 
 interface AdminPanelProps {
   user: User;

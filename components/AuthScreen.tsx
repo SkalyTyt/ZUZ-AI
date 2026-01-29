@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { User, UserRole } from '../types';
-import { ADMIN_EMAIL } from '../constants';
+import { User, UserRole } from '../types.ts';
+import { ADMIN_EMAIL } from '../constants.ts';
 
 interface AuthScreenProps {
   onLogin: (user: User) => void;

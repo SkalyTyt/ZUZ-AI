@@ -1,6 +1,6 @@
 import { GoogleGenAI, Chat } from "@google/genai";
-import { SYSTEM_INSTRUCTION_TEMPLATE } from '../constants';
-import { getInventory } from './storageService';
+import { SYSTEM_INSTRUCTION_TEMPLATE } from '../constants.ts';
+import { getInventory } from './storageService.ts';
 
 // Singleton instance to hold the chat session
 let chatInstance: Chat | null = null;

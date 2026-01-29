@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { User, ScreenState, UserRole } from './types';
-import { AuthScreen } from './components/AuthScreen';
-import { ChatInterface } from './components/ChatInterface';
-import { AdminPanel } from './components/AdminPanel';
-import { getInventory } from './services/storageService';
+import { User, ScreenState, UserRole } from './types.ts';
+import { AuthScreen } from './components/AuthScreen.tsx';
+import { ChatInterface } from './components/ChatInterface.tsx';
+import { AdminPanel } from './components/AdminPanel.tsx';
+import { getInventory } from './services/storageService.ts';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
